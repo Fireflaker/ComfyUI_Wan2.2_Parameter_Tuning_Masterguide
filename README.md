@@ -124,3 +124,33 @@ Stands and do nothing at all bounce, slihgly dreamy
 
 ## Way worse on 7860
 <img width="1589" height="780" alt="image" src="https://github.com/user-attachments/assets/9bee8bb1-2bec-43ba-9b0a-6fb115520695" />
+
+
+
+
+
+Steps all 1,1,2
+All i2v loras
+
+All VACE: dark movie feel, from a different movie, not same person, no 5s coherance at all. No.
+<img width="269" height="254" alt="image" src="https://github.com/user-attachments/assets/a25e3a78-f145-4d27-bdc8-c1b5cc43f6e7" />
+
+All i2v: works, character does not follow well, low quality like seeing through water glass
+<img width="296" height="292" alt="image" src="https://github.com/user-attachments/assets/f1b730b7-dff2-459b-9167-a52c7439a835" />
+
+All t2v: no 5s coherance. White spotty blurry, looks ok. No.
+<img width="239" height="250" alt="image" src="https://github.com/user-attachments/assets/cb14740c-7993-4360-bdbc-9b644373e631" />
+
+All inpaint: Sharper slightly, but ruined face, sporatic short morph fast; has potencial
+<img width="259" height="278" alt="image" src="https://github.com/user-attachments/assets/4fea1f3b-297a-4256-aca4-e6803ce41ec2" />
+
+All Fun Control:
+Vector size run fail
+<img width="618" height="277" alt="image" src="https://github.com/user-attachments/assets/aa642701-039c-43c0-9bcd-3c088d166dc9" />
+
+All Fun Camera: 
+has some 5s coherance, but useless. Double face, no idea with text prompt
+<img width="245" height="268" alt="image" src="https://github.com/user-attachments/assets/b85dced2-baad-4a82-932d-c5c05a6e4e7d" />
+
+
+
