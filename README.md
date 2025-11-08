@@ -98,26 +98,29 @@ Does not look like photo. Character human limbs wrong, bright colorful rgb oblon
  
 ## Vantage Long 5 OK:
 
-### Clip:
-xx
-### VAE:
-xx
-### Model Init:
-xx
-1 step
-### Model High:
-xx
-4 step
-### Model Low:
-VACE low fp16 shift 5, NO LORA
-26 step
-
+<img width="883" height="582" alt="image" src="https://github.com/user-attachments/assets/43955043-6ab4-42e0-9084-1084a4cbe055" />
 Good coherance and vidual quality, good body phyusics, bad action, where things show and connected move.
-<img width="460" height="678" alt="image" src="https://github.com/user-attachments/assets/faa1be17-06f8-4bfc-8e38-0f6e6c04e27c" />
-<img width="312" height="292" alt="image" src="https://github.com/user-attachments/assets/92c0c041-0667-459e-88b7-a5ce705c309f" />
 <img width="207" height="219" alt="image" src="https://github.com/user-attachments/assets/1f9c901d-3870-4ece-9a5e-8ad91fb451d9" />
 
 ## Vantage Long 6 OK:
 <img width="976" height="650" alt="image" src="https://github.com/user-attachments/assets/21bb296f-4c4e-4847-8234-a6806b023e52" />
 Just stand and do nothing - ish, but otherwise resonable
 <img width="220" height="209" alt="image" src="https://github.com/user-attachments/assets/4702b673-1183-4fba-b1d6-4d9d6c0d41ef" />
+
+
+## Vantage Long 7 ok worse:
+
+Steps: 1,4,26. Same
+Stands and do nothing at all bounce, slihgly dreamy
+
+
+
+
+## Vantage Long 8 older but better:
+
+<img width="848" height="589" alt="image" src="https://github.com/user-attachments/assets/89687e14-f262-42d3-81a4-b24f80b5d547" />
+
+
+
+## Way worse on 7860
+<img width="1589" height="780" alt="image" src="https://github.com/user-attachments/assets/9bee8bb1-2bec-43ba-9b0a-6fb115520695" />
