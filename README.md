@@ -154,3 +154,12 @@ has some 5s coherance, but useless. Double face, no idea with text prompt
 
 
 
+
+I2v all ,but 0.5 lora for both
+Worse waterglass effect. Useless
+<img width="593" height="748" alt="image" src="https://github.com/user-attachments/assets/ef4d9ecf-05a7-43ea-91b2-4a3f5b38339a" />
+
+
+I2v all ,but 2.4 lora for both
+Light fried, no detail, understand text better. 
+<img width="241" height="263" alt="image" src="https://github.com/user-attachments/assets/0f685998-04ac-4022-8117-aa0036722f9e" />
