@@ -163,3 +163,96 @@ Worse waterglass effect. Useless
 I2v all ,but 2.4 lora for both
 Light fried, no detail, understand text better. 
 <img width="241" height="263" alt="image" src="https://github.com/user-attachments/assets/0f685998-04ac-4022-8117-aa0036722f9e" />
+
+I2v all, no lora, 1, 12, 12
+Very bad. Immedietly melted. BAD
+<img width="278" height="283" alt="image" src="https://github.com/user-attachments/assets/5a7f9b75-f3de-4b77-ba30-476e2c3864c9" />
+<img width="280" height="289" alt="image" src="https://github.com/user-attachments/assets/8c2c6e21-51a4-4e1e-8b28-8575be34a016" />
+same setting different seed, do nothing, random things, BAD.
+<img width="285" height="316" alt="image" src="https://github.com/user-attachments/assets/e6c52b4b-8e8c-4cb6-b0d6-17cc5ce30484" />
+
+
+I2v all, revert to yes lora 1:00, 1, 5, 5
+lora 1.0
+Pretty good, slowly develops more and more color noise comfetty max colorful
+<img width="299" height="293" alt="image" src="https://github.com/user-attachments/assets/14bffc1a-5e0d-4a28-a03d-b89f10a8c99a" />
+
+I2v all, revert to yes lora 1:00, 1, 5, 5
+lora increased both to 1.8
+First 5s very good, then at second clip over saturation shot red hot. Indeed no more colro noise dot at all!
+<img width="290" height="298" alt="image" src="https://github.com/user-attachments/assets/35def9a1-68b5-4433-927d-84b6f633a2dd" />
+<img width="271" height="284" alt="image" src="https://github.com/user-attachments/assets/786c1fcd-13dc-4337-9dc1-fd20abeba8cf" />
+
+SAVE POINT t12 v7
+Same as above, loras down to 1.5; steps down to 1, 3, 2
+Promising, low ish motion. Dumb to understand follow text.
+<img width="266" height="298" alt="image" src="https://github.com/user-attachments/assets/61ae1712-5084-45ae-a47b-46ca68ecd757" />
+second chunk takeover ok
+<img width="277" height="290" alt="image" src="https://github.com/user-attachments/assets/1fff588c-7b66-4b74-b31f-2168a4849708" />
+
+Try in order to improve text following, exact same but now use gg12 clip and vae
+Honestly, zero improvement.
+COMCLUSION: IGNORE MEGA12 VAE AND CLIP; theyre the same. Need doucble varify.
+<img width="601" height="466" alt="image" src="https://github.com/user-attachments/assets/4886ee00-c621-4bf2-a86b-e9c55655a72a" />
+<img width="287" height="284" alt="image" src="https://github.com/user-attachments/assets/ae90a693-0cad-4f7b-a438-a1df20b03a74" />
+
+Core issue (right): Not following text enough
+
+Increse shift from 5 to 6; then to 8
+RIGHT RUNNIGN q1 and Q2
+
+
+
+
+left after the 211.25s 3 is
+All 1,2,2 steps; eular_a, beta, 0.9 demoise
+1.8 lora surprizingly quite good
+<img width="569" height="635" alt="image" src="https://github.com/user-attachments/assets/0db1af99-e243-4add-802a-282cc1a1f73b" />
+
+high, gg, low, same everything. gg v7. normal vae and clip
+Better useful motion, silimar quality to lora 1.8
+<img width="250" height="269" alt="image" src="https://github.com/user-attachments/assets/ba8b0eba-c624-42c2-8fc5-75e74d065abf" />
+
+
+high, gg, low, same everything. !BAD gg v12 BAD!   normal vae and clip
+Instant merge to text only mood, no image retention at all, wrong physics. Wrong body parts. BAD
+<img width="233" height="266" alt="image" src="https://github.com/user-attachments/assets/4d845086-04f2-465e-a021-1bd0addfb1cd" />
+
+
+high, gg v7, low. WITH ggv12's vae and clip using load checkpoint (super mix)
+lora 1.8
+Broken physics, weird body parts, but action amount ok. low-ish res, but visually ok ish. Good understanding of text prompt.
+<img width="247" height="251" alt="image" src="https://github.com/user-attachments/assets/40e5dbd7-8852-4f2a-b763-48ab39be1d54" />
+
+
+LEARNING: when see color spotty max blue yellow noise, increase lora strength from 1 to 1.8
+
+Same as above but using only vae and clip from the mega 12 gg; otherwise normal high low i2v with lora
+same 1,2,2
+same lora 1.8
+Good early on, morphed body, trashed physics likly due to early noise
+Second 5s fail to take over
+<img width="237" height="266" alt="image" src="https://github.com/user-attachments/assets/14f5bf41-6be5-4785-bd2f-2d746eb8981b" />
+<img width="231" height="265" alt="image" src="https://github.com/user-attachments/assets/a2a8c54c-50ea-4659-842d-cc2f480536cc" />
+
+Down loras to 1.4 Otherwise same Only original high low, only using clipa dn vae from gg12
+no longer fried, but body morph likly due to way too mcuh noise
+<img width="604" height="743" alt="image" src="https://github.com/user-attachments/assets/c4e19f57-f5ac-4338-b55e-5d05f3fb8c9e" />
+
+Now issue: Noise too high
+
+Down shift all from 5 to 3. Same all else
+<img width="647" height="506" alt="image" src="https://github.com/user-attachments/assets/adb6b934-60d5-4f2f-8942-62f490bf1317" />
+<img width="262" height="267" alt="image" src="https://github.com/user-attachments/assets/c6fb47f7-6e90-4bec-91ab-d54e23135cbc" />
+Still body morphic. Maybe just low resolution not noise at this poitn currentis 784 x 976 so...shoudl not be an auissue. Denoise is still 0.9
+
+Last attempt, just up 992 x 1680 huge. All else same. Still 1,2,2 (gpu ram pushing max)
+Left quese first
+
+Then up steps to 1, 3, 3
+Left quese second
+
+
+r12 end. Re approch, using 
+
+
